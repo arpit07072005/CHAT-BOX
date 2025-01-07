@@ -241,3 +241,54 @@ height: 74px;
   border-top-right-radius: 12px;
   border-bottom-left-radius: 12px;
 }
+@media screen and (max-width: 800px) {
+  .particularmsg {
+    display: none;
+    width: 100%; 
+  }
+  .particularmsg.mobileactive {
+    display: block;
+  }
+  .allmessages{
+    width: 100%; 
+    height: 100%; 
+  }
+  .allmessages.mobileactive{
+    display: none;
+  }
+  .main{
+    min-height: 100vh;
+  }
+  ul{
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footerlogo{
+    display: none;
+  }
+  .contact{
+  margin: auto;
+  }
+}
+@media screen and (max-width: 425px){
+  .contact{
+    display: block;
+    }
+     .cont1lastmsg{
+      display: none;
+    }
+    .nav-login-btn button{
+      width: 90px;
+    }
+    .chat-images {
+      margin-top: 20px;
+      width: 100%;
+      height: 55px;
+      background: rgba(243, 174, 159, 1);
+      border-radius: 10px;
+      font-family: "Open Sans", serif;
+      font-weight: 600;
+      font-size: 18px;
+  }
+}
